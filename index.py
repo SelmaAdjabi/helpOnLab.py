@@ -21,9 +21,7 @@ class Ui(QtWidgets.QMainWindow):
 
         fd=  1 / (vi / vf)
         vd = vf - vi
-
-
-
+        
         self.resultLabel.setText(str(fd))
         self.result2Label.setText(str(vd))
 
